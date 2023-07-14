@@ -75,7 +75,7 @@ We gave as input the denoised image converted to binary with a specific threshol
 1. The centroid matrix. Coordinates of the center of each area.
 
 ## 2.a-b
-We add a threshold and  run throught the components.
+We add a threshold and  run through the components.
 
 With help of stat matrix and STAT_AREA (${area}$) we can find number of pixels in each component.
 
@@ -149,12 +149,12 @@ The erros are due to :
 
 1. possible failures of the methodology:
 
-   1.  Median filter implementation might lose some information from the image.
+   1.  Median filter implementation may cause   loss of some information in the image.
    1.  Not propert threshold implementation   to convert denoised image to binary.
    1.  Not propert theshold implementation to dismiss some components(areas).
 
 
 2. possible failures due to images features:
-   1. In some areas we have something like noise that considered from _"cv2.connectedComponentsWithStats"_ a component. For example that happens in the boxes 22 and 36.
+   1. In some areas we have something like noise that considered from _"cv2.connectedComponentsWithStats"_ as a component. For example that happens in the boxes 22 and 36.
 
 
