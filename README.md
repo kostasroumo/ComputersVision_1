@@ -1,4 +1,4 @@
-# COMPUTERS VISION PROJECT 1
+# COMPUTERS VISION PROJECT 1_1
 This is a project in the context of the course "**Computers Vision**", 
  Democritus Universitry Of Thrace.
 ***
